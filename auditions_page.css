@@ -1,0 +1,58 @@
+    body{
+        background-image:url('https://png.pngtree.com/thumb_back/fh260/back_pic/03/80/06/3757c30a762387b.jpg');
+        
+    }
+    main{
+        background-color: rgba(0, 0, 0, 0.712);
+        color:white;
+        margin: 40px auto 20px auto;
+        max-width:40%;
+        padding:40px 50px 20px 50px;
+        font-size: 1.5rem;
+    }
+    @media(max-width:1300px){
+        main{
+        margin: 40px auto 20px auto;
+        max-width:60%;
+    }
+    }
+    header{
+        background-color: rgba(1, 1, 15, 0.418);
+        color:white;
+        margin: 40px auto 20px auto;
+        max-width:100%;
+    }
+    #title,#description{
+        text-align: center;
+    }
+    #name,#email,#number,#dropdown{
+        width:95%;
+        height:40px;
+    }
+    input{
+        margin-top:8px;
+        padding-left:6px;
+    }
+    #description{
+        font-size: 1.5rem;
+    }
+    #title{
+        font-size: 3rem;
+    }
+    textarea{
+        width:95%;
+        height:140px;
+        margin-top:8px;
+        padding:6px;
+    }
+    button{
+        background-color: rgb(20, 20, 138);
+        width:90%;
+        margin:10px;
+        height:40px;
+        color:white;
+        font-size: 1.5rem;
+    }
+    button:hover{
+        background-color: rgba(20, 20, 138, 0.829);
+    }

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="auditions_page.css">
+        <link rel="background" href="https://png.pngtree.com/thumb_back/fh260/back_pic/03/80/06/3757c30a762387b.jpg">
+        <title>Auditions page</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="title">IEEE SB NIT DURGAPUR<h1>
+            <p id="description">Welcome to Auditions Panel</p>
+        </header>
+        <main>
+            <form id="survey-form">
+                <label for="name" id="name-label">Name:</label>        
+                <input type="text" id="name" required placeholder="Enter your name">
+                <br><br>
+                <label for="email" id="email-label">Email id:</label>
+                <input type="email" id="email" required placeholder="Enter valid email">
+                <br><br>
+                <label for="number" id="number-label">Age:(optional)</label>
+                <input type="number" id="number" min="17" max="25" placeholder="Enter your age">
+                <br><br>
+                <label for="dropdown" id="year-label">Year of study</label>
+                <select id="dropdown">
+                    <option value="" selected disabled>choose your year</option>
+                    <option value="BTECH_1">BTECH 1st Year</option>
+                    <option value="BTECH_2">BTECH 2nd Year</option>
+                </select>
+                <br><br>
+                <div id="department">
+                    <label for="dept" id="dept-label">Enter your department</label>
+                    <br>
+                    <input type="radio" name="dept" id="cse" value="CSE">
+                    <label for="cse">Computer Science and Engineering</label>
+                    <br>
+                    <input type="radio" name="dept" id="ece" value="ECE">
+                    <label for="ece">Electronics and Communications Engineering</label>
+                    <br>
+                    <input type="radio" name="dept" id="ee" value="EE">
+                    <label for="ee">Electrical Engineering</label>
+                    <br>
+                    <input type="radio" name="dept" id="mech" value="MECH">
+                    <label for="mech">Mechanical Engineering</label>
+                    <br>
+                    <input type="radio" name="dept" id="civil" value="CIVIL">
+                    <label for="civil">Civil Engineering</label>
+                    <br>
+                    <input type="radio" name="dept" id="chem" value="CHEM">
+                    <label for="chem">Chemical Engineering</label>
+                    <br>
+                    <input type="radio" name="dept" id="bio" value="BIOTECH">
+                    <label for="bio">Biotechlogy</label>
+                    <br>
+                    <input type="radio" name="dept" id="mme" value="MME">
+                    <label for="mme">Metals and Metallurgical Engineering</label>
+                </div>
+                <br><br>
+                <div id="category">
+                    <label for="catg" id="catg-label">Enter your prefered category(Can choose more than one categories)</label> 
+                    <br>               
+                    <input type="checkbox" name="catg" id="tech" value="Technical">
+                    <label for="tech">Technical</label>
+                    <br>
+                    <input type="checkbox" name="catg" id="webd" value="Web Development">
+                    <label for="webd">Web Development</label>
+                    <br>
+                    <input type="checkbox" name="catg" id="grap" value="Graphic Designing">
+                    <label for="grap">Graphic Designing</label>
+                    <br>
+                    <input type="checkbox" name="catg" id="pub" value="Publicity and Outreach">
+                    <label for="pub">Publicity and Outreach</label>
+                </div>
+                <br><br>
+                <label for="comments" id="com-sec">Additional Information(optional)</label>
+                <br>
+                <textarea name="comments">Any additional information you want to share?</textarea>
+                <br><br><br>
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </main>
+    </body>
+</html>
