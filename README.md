@@ -1,2 +1,2 @@
-# Auditions_form
-A simple auditions form
+# Auditions_page
+A simple auditions landing page
