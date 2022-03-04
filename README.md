@@ -1,2 +1,3 @@
 # Auditions_page
-A simple auditions landing page
+- An auditions landing page for my organisation
+- Phone view has speciality to change backgrounds
